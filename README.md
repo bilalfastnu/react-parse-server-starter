@@ -12,7 +12,7 @@
 
 ## Motivation
 
-This is an extension to another React Starter Project [React SSR with TypeScript](https://raw.githubusercontent.com/manuelbieh/react-ssr-setup/) with an addition of [Pars Server](https://github.com/parse-community/parse-server).
+This is an extension to another React Starter Project [React SSR with TypeScript](https://github.com/manuelbieh/react-ssr-setup/) with an addition of [Pars Server](https://github.com/parse-community/parse-server).
 The reason I created this library is there was no react starter with parse server.
 
 Mainly, I created this setup as a baseline to create more projects using it.

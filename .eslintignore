@@ -3,3 +3,4 @@
 src/frontend/config/env.js
 **/build
 *.d.ts
+src/server/cloud/main.js
