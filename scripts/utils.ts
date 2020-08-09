@@ -1,3 +1,4 @@
+// @ts-ignore
 import chalk from 'chalk';
 
 export const logMessage = (message: any, level: string = 'info') => {

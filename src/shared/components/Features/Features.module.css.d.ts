@@ -3,6 +3,7 @@ declare const styles: {
     readonly i18n: string;
     readonly jest: string;
     readonly linter: string;
+    readonly parse: string;
     readonly racecar: string;
     readonly react: string;
     readonly rtl: string;

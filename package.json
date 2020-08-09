@@ -1,11 +1,10 @@
 {
-  "name": "react-ssr-setup",
+  "name": "hospitality",
   "version": "6.0.0",
-  "author": "Manuel Bieh <npm@manuelbieh.de> (https://github.com/manuelbieh)",
+  "author": "Bilal Nazir (https://bilalnazir.com)",
   "license": "MIT",
   "engines": {
-    "node": ">=10.18.1",
-    "yarn": "^1.22.0"
+    "node": ">=10.18.1"
   },
   "scripts": {
     "analyze": "yarn-or-npm build:with-stats && yarn-or-npm start:analyzer",
@@ -30,6 +29,8 @@
     "tsc": "tsc --noEmit"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@types/parse": "^2.12.2",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "chalk": "^4.0.0",
@@ -39,12 +40,14 @@
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
     "express-manifest-helpers": "^0.6.0",
+    "formik": "^2.1.5",
     "glob": "^7.1.6",
     "history": "^4.10.1",
     "i18next": "^19.5.5",
     "i18next-xhr-backend": "^3.2.2",
     "immer": "^7.0.5",
     "mkdirp": "^1.0.4",
+    "parse-server": "^4.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet-async": "^1.0.6",
@@ -67,6 +70,7 @@
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-modules-commonjs": "^7.9.6",
     "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/plugin-transform-typescript": "^7.10.5",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
     "@babel/preset-typescript": "^7.9.0",
@@ -188,5 +192,10 @@
   },
   "resolutions": {
     "caniuse-lite": "^1.0.30001055"
-  }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11",
+    "Edge >= 15"
+  ]
 }

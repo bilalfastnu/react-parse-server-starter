@@ -29,6 +29,8 @@ module.exports = (api) => {
             '@babel/proposal-class-properties',
             '@babel/proposal-optional-chaining',
             '@babel/syntax-dynamic-import',
+            '@babel/transform-runtime',
+            '@babel/transform-typescript',
             'macros',
             isDev && isTargetWeb && 'react-refresh/babel',
         ].filter(Boolean),
@@ -37,7 +39,8 @@ module.exports = (api) => {
                 plugins: [
                     '@babel/transform-modules-commonjs',
                     '@babel/syntax-dynamic-import',
-                    '@babel/plugin-transform-runtime',
+                    '@babel/transform-runtime',
+                    '@babel/transform-typescript',
                 ],
             },
             tooling: {

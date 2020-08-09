@@ -4,22 +4,63 @@
 /* @import-normalize; */
 
 :global(body) {
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    flex-direction: column;
     font-family: 'Titillium Web', Arial, Sans-Serif;
     font-size: var(--font-size-base);
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .wrapper {
     margin: auto;
     max-width: 100%;
     width: 768px;
-
-    h1 {
-        font-size: var(--font-size-h1);
-    }
 }
 
-.reactLogo {
-    height: 48px;
+.headerLogos {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLogos span {
+    font-size: 100px;
+}
+
+.wrapper h1 {
+    font-size: var(--font-size-h1);
+}
+
+.reactLogo,
+.parseLogo {
+    height: 150px;
     vertical-align: middle;
-    width: 48px;
+}
+.reactLogo {
+    width: 192px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .reactLogo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

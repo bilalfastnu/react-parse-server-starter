@@ -9,6 +9,7 @@ const Features = () => {
             <h2>{t('features')}</h2>
             <ul className={css.wrapper}>
                 <li className={css.react}>React 16.x (latest)</li>
+                <li className={css.parse}>Parse Server + Graphql</li>
                 <li className={css.webpack}>Webpack 4</li>
                 <li className={css.linter}>ESLint 6</li>
                 <li className={css.hot}>Babel 7</li>

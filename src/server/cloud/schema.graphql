@@ -1,0 +1,4 @@
+# schema.graphql
+extend type Query {
+  hello: String! @resolve
+}

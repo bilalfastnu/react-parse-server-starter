@@ -20,6 +20,10 @@
             content: '⚛';
         }
 
+        &.parse:before {
+            content: '☕';
+        }
+
         &.webpack:before {
             content: '📦';
         }
